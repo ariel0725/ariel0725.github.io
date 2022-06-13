@@ -1,0 +1,77 @@
+
+.feelingradio input{
+    display: none;
+}
+.feelingradio-btn{
+    border: 1px solid #d2d3d2;
+    border-radius: 999px;
+    text-align: right;
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 40px ;
+    background-size: 30px 30px;
+    background-position:5px 2px;
+    cursor: pointer;
+}
+    
+.feel10{
+    background-image: url(./img/very-happy.svg);
+}
+
+.feel9,.feel8,.feel7{
+    background-image: url(./img/happy.svg);
+}
+
+.feel6,.feel5,.feel4{
+    background-image: url(./img/soso.svg);
+}
+.feel3,.feel2,.feel1{
+    background-image: url(./img/unhappy.svg);
+}
+.feel0{
+    background-image: url(./img/bad.svg);
+}
+  
+
+.feelingradio input:checked+label.feelingradio-btn{
+    border: 1px solid #23569d;
+    color: #fff;
+    
+}
+
+.feelingradio input:checked+label.feel10{
+    background-color: #23569d;
+    background-image: url(./img/very-happy-active.svg);
+
+}
+
+.feelingradio input:checked+label.feel9,.feelingradio input:checked+label.feel8,.feelingradio input:checked+label.feel7{
+    background-color: #007f7b;
+    background-image: url(./img/happy-active.svg);
+}
+
+.feelingradio input:checked+label.feel6,.feelingradio input:checked+label.feel5,.feelingradio input:checked+label.feel4{
+    background-color: #ffad42;
+    background-image: url(./img/soso-active.svg);
+}
+
+.feelingradio input:checked+label.feel3,.feelingradio input:checked+label.feel2,.feelingradio input:checked+label.feel1{
+    background-color: #ff9889;
+    background-image: url(./img/unhappy-active.svg);
+}
+.feelingradio input:checked+label.feel0{
+    background-color: #B50029;
+    background-image: url(./img/bad-active.svg);
+}
+    
+
+@media(max-width: 768px){
+    .feelingradio-btn{
+        display: block;
+        text-align: center;
+        height: 40px;
+        background-size: 35px 35px;
+    }
+
+
+}
+    
