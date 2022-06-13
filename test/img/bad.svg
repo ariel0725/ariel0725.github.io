@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / feeling / line / bad</title>
+    <g id="icon-/-feeling-/-line-/-bad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" stroke="#B3B3B3" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" cx="10" cy="10" r="9.5"></circle>
+            <g id="face" transform="translate(4.499890, 7.499890)" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1.50010953,4.50010953 C1.50010953,5.50010953 3.29097053,7.00010953 5.50010953,7.00010953 C7.70924853,7.00010953 9.50010953,5.50010953 9.50010953,4.50010953" id="Path" transform="translate(5.500110, 5.750110) scale(1, -1) translate(-5.500110, -5.750110) "></path>
+                <polyline id="Path-53" points="0.500109528 0.250109528 3.50010953 1.25010953 0.500109528 2.25010953"></polyline>
+                <polyline id="Path-53" points="10.5001095 0.250109528 7.50010953 1.25010953 10.5001095 2.25010953"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
