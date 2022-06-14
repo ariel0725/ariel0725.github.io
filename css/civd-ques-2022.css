@@ -79,10 +79,6 @@ td.logo-box{
     }
 
 @media(max-width:768px){
-
-
-   
-
     #main.main{
         padding:0px 20px 20px ;
         width: 90%;
@@ -97,8 +93,9 @@ td.logo-box{
     .reply-box.moodface label{
         display: block;
         width: 95%;
-        margin: 5px 0px;
+        margin: 10px 0px;
         text-align: center;
+       
     }
 
     .reply-box.moodface label img{
@@ -127,6 +124,10 @@ td.logo-box{
     }
         
 }
+
+   
+
+
     
 
 
