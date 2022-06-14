@@ -13,7 +13,6 @@ div#header{
 td.logo-box{
     background-image: url(../images/logo.gif);
     background-repeat: no-repeat;
-    /* background-size: 100%   ; */
     background-position:right center;
     width: 500px;
 }
@@ -26,9 +25,11 @@ td.logo-box{
 }
 
 .reply-box.moodface label{
-    padding: 5px;
+    display: inline-block;
+    padding: 3px 10px 3px 5px;
     border: 1px solid #e5e5e5;
     border-radius: 999px; 
+   
 }
 
 .reply-box.moodface input:checked+label{
@@ -95,6 +96,7 @@ td.logo-box{
         width: 95%;
         margin: 10px 0px;
         text-align: center;
+        padding: 10px 0px 10px 10px;
        
     }
 
